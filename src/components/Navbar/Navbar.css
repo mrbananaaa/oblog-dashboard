@@ -1,0 +1,65 @@
+.nav-container {
+  @apply hidden bg-light-orange md:h-full md:flex py-20 justify-center border-r-[0.5px] select-none;
+}
+
+.nav-wrapper {
+  @apply flex flex-col justify-between w-full;
+}
+
+.nav-logo {
+  @apply mx-auto;
+}
+
+.nav-items-wrapper {
+  @apply w-3/4 mx-auto space-y-4;
+}
+
+.nav-items-active {
+  @apply flex items-center space-x-4 px-5 py-4 rounded-lg bg-dark cursor-pointer active:bg-opacity-90;
+}
+
+.nav-items-active-logo {
+  @apply text-light;
+}
+
+.nav-items-active-title {
+  @apply font-medium text-xs lg:text-sm text-light;
+}
+
+.nav-items {
+  @apply flex items-center space-x-4 px-5 py-4 rounded-lg bg-light cursor-pointer shadow-[0px_0px_12px_rgba(0,0,0,0.25)] active:bg-dark/5;
+}
+
+.nav-items-logo {
+  @apply text-dark;
+}
+
+.nav-items-title {
+  @apply font-medium text-xs lg:text-sm text-dark;
+}
+
+/* mobo navbar */
+
+.mobonav-container {
+  @apply fixed top-0 w-full z-[100] bg-light md:hidden flex items-center space-x-5 p-8 select-none border-b;
+}
+
+.mobonav-menu-wrapper {
+  @apply relative cursor-pointer;
+}
+
+.mobonav-menu-btn {
+  @apply peer-checked:scale-0 transition-transform duration-300;
+}
+
+.mobonav-x-btn {
+  @apply absolute top-0 scale-0 peer-checked:scale-100 transition-transform duration-300
+}
+
+.mobonav-dark-overlay {
+  @apply absolute hidden -left-[8vw] top-[61px] z-20 min-h-screen w-screen peer-checked:bg-dark/20 peer-checked:block;
+}
+
+.mobonav-menu-container {
+  @apply absolute -left-[120vw] top-[61px] z-20 min-h-screen w-screen peer-checked:-left-8 transition-all duration-500;
+}

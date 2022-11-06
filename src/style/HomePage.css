@@ -1,0 +1,59 @@
+.home-title-wrapper {
+  @apply pt-40 p-8 md:pt-14 md:p-14;
+}
+
+.home-title-welcome {
+  @apply md:text-2xl font-medium text-dark-gray selection:bg-dark selection:text-white;
+}
+
+.home-title-username {
+  @apply pt-2 text-4xl md:text-6xl font-semibold selection:bg-dark selection:text-light;
+}
+
+.home-content-wrapper {
+  @apply flex flex-col md:flex-row border-t;
+}
+
+/* recent post section */
+
+.recent-posts-wrapper {
+  @apply p-8 md:p-14 md:flex-[7] border-r;
+}
+
+.recent-posts-text {
+  @apply pb-5 md:pb-0 text-3xl font-medium selection:bg-dark selection:text-white;
+}
+
+.recent-posts-card-wrapper {
+  @apply py-5 flex flex-col space-y-4 select-none;
+}
+
+/* profile section */
+
+.profile-section-wrapper {
+  @apply md:flex-[3];
+}
+
+.profile-section-container {
+  @apply h-full w-full flex flex-col justify-between items-center space-y-32 md:space-y-0 pt-6 pb-12;
+}
+
+.profile-section-content-wrapper {
+  @apply flex flex-col items-center space-y-5;
+}
+
+.profile-section-content {
+  @apply text-center selection:bg-dark selection:text-white;
+}
+
+.profile-section-content-title {
+  @apply font-medium;
+}
+
+.profile-section-content-subtitle {
+  @apply pt-1 text-xs text-subtitle;
+}
+
+.profile-btn-wraper {
+  @apply w-8/12 flex flex-col space-y-2 select-none;
+}

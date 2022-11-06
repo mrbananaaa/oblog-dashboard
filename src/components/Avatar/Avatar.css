@@ -1,0 +1,7 @@
+.avatar-main-container {
+  @apply border-2 border-dark p-1 rounded-full select-none;
+}
+
+.avatar-main-img {
+  @apply h-24 w-24 object-cover rounded-full overflow-hidden cursor-pointer;
+}

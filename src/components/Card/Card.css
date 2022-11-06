@@ -1,0 +1,41 @@
+/* recent post card */
+
+.recent-post-card-container {
+  @apply bg-light p-4 border-2 border-dark rounded-xl flex flex-col md:flex-row space-y-5 md:space-y-0 items-center md:space-x-5;
+}
+
+.recent-post-card-thumbs {
+  @apply w-full md:w-1/4 rounded-lg overflow-hidden;
+}
+
+.recent-post-card-content-wrapper {
+  @apply flex justify-between items-center w-full h-full;
+}
+
+.recent-post-card-content {
+  @apply flex flex-col space-y-2 max-w-[50%];
+}
+
+.recent-post-card-title {
+  @apply font-medium text-xl;
+}
+
+.recent-post-card-subtitle {
+  @apply text-xs text-subtitle;
+}
+
+.recent-post-card-timeline {
+  @apply flex flex-col md:flex-row space-y-1 md:space-y-0 justify-between text-[10px];
+}
+
+.recent-post-card-btn-wrapper {
+  @apply flex flex-col justify-center space-y-2;
+}
+
+.recent-post-card-btn-main {
+  @apply bg-dark border border-dark p-2 rounded-md text-white;
+}
+
+.recent-post-card-btn-sec {
+  @apply bg-light border border-dark p-2 rounded-md text-dark;
+}

@@ -1,0 +1,23 @@
+.layout-container {
+  @apply md:flex min-h-screen font-display;
+}
+
+.navbar-layout-wrapper {
+  @apply md:flex-[2.5];
+}
+
+.content-layout-wrapper {
+  @apply relative md:flex-[7.5] w-full min-h-screen bg-light text-dark overflow-x-hidden;
+}
+
+.content-route-container {
+  @apply h-full;
+}
+
+.footer-container {
+  @apply absolute select-none bottom-0 py-2 border-t w-full text-center text-xs font-medium bg-light;
+}
+
+.footer-link {
+  @apply text-dark-yellow;
+}

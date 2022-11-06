@@ -1,0 +1,11 @@
+.btn {
+  @apply w-full rounded-lg py-3.5 border-2 border-dark text-sm text-center active:bg-opacity-90 transition-all duration-150
+}
+
+.btn-main {
+  @apply bg-dark text-light
+}
+
+.btn-sec {
+  @apply bg-light text-dark font-medium hover:text-light hover:bg-dark active:bg-opacity-90
+}
