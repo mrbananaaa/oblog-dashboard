@@ -7,11 +7,11 @@
 }
 
 .content-layout-wrapper {
-  @apply relative md:flex-[7.5] w-full min-h-screen bg-light text-dark overflow-x-hidden;
+  @apply relative md:flex-[7.5] w-full h-full max-h-screen bg-light text-dark overflow-x-hidden;
 }
 
 .content-route-container {
-  @apply h-full;
+  @apply h-full relative;
 }
 
 .footer-container {

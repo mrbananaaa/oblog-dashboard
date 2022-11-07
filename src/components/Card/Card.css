@@ -1,7 +1,7 @@
 /* recent post card */
 
 .recent-post-card-container {
-  @apply bg-light p-4 border-2 border-dark rounded-xl flex flex-col md:flex-row space-y-5 md:space-y-0 items-center md:space-x-5;
+  @apply bg-light p-4 border-2 border-dark rounded-xl flex flex-col md:flex-row space-y-5 md:space-y-0 items-center md:space-x-5 select-none;
 }
 
 .recent-post-card-thumbs {
@@ -9,11 +9,11 @@
 }
 
 .recent-post-card-content-wrapper {
-  @apply flex justify-between items-center w-full h-full;
+  @apply flex justify-between w-full h-full;
 }
 
 .recent-post-card-content {
-  @apply flex flex-col space-y-2 max-w-[50%];
+  @apply flex flex-col justify-between space-y-2 max-w-[50%];
 }
 
 .recent-post-card-title {
@@ -38,4 +38,34 @@
 
 .recent-post-card-btn-sec {
   @apply bg-light border border-dark p-2 rounded-md text-dark;
+}
+
+.my-post-card-btn-danger {
+  @apply bg-red border border-red p-2 rounded-md text-white;
+}
+
+/* notifications */
+
+.notifcard-layout-container {
+  @apply flex justify-between items-center px-6 py-5 md:px-14 text-xs border-b
+}
+
+.notifcard-layout-text-wrapper {
+  @apply flex space-x-2;
+}
+
+.notifcard-layout-title {
+  @apply font-medium;
+}
+
+.notifcard-layout-colon {
+  @apply hidden md:inline-block
+}
+
+.notifcard-layout-text {
+  @apply hidden md:inline-block font-light text-[#6A6A6A]
+}
+
+.notifcard-layout-link {
+  @apply font-medium text-[#438EFF]
 }

@@ -1,5 +1,5 @@
 .nav-container {
-  @apply hidden bg-light-orange md:h-full md:flex py-20 justify-center border-r-[0.5px] select-none;
+  @apply hidden bg-light-orange h-full max-h-screen md:flex py-20 justify-center border-r-[0.5px] select-none;
 }
 
 .nav-wrapper {

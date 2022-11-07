@@ -14,8 +14,8 @@ const Layout = () => {
       <div className="content-layout-wrapper">
         <div className="content-route-container">
           <Outlet />
+          <Footer />
         </div>
-        <Footer />
       </div>
     </div>
   );

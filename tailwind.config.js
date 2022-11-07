@@ -17,6 +17,7 @@ module.exports = {
         "dark-gray": "#444444",
         "subtitle": "#666666",
         "dark-yellow": "#E5A500",
+        "red": "#FF2222",
       },
       animation: {
         'spin-slow': 'spin 3s linear infinite',
