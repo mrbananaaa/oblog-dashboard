@@ -37,7 +37,7 @@ const HomePage = () => {
   const displayName = currentUser ? currentUser.name.split(' ')[0] : 'User'
 
   return (
-    <section>
+    <section className="min-h-screen">
       <div className="home-title-wrapper">
         <h4 className="home-title-welcome">Welcome,</h4>
         <h1 className="home-title-username">{displayName}</h1>
